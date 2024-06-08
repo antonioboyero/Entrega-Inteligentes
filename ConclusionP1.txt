@@ -1,0 +1,9 @@
+//AL DEJAR EL PROBLEMA CON TODOS LOS RESCATES E IR A POR LA POS (4, 13)
+posiciones de la heurística (18, 15) (4, 13)
+posiciones de la heurística (18, 15) (28, 11)
+posiciones de la heurística (18, 15) (28, 5)
+Nodo sucesor añadido a open: (18, 15) con fCost: 15.0
+
+//AL DEJAR EL PROBLEMA SOLO CON EL RESCATE (4, 13)
+posiciones de la heurística (18, 15) (4, 13)
+Nodo sucesor añadido a open: (18, 15) con fCost: 17.0
