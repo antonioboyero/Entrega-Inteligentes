@@ -1,0 +1,86 @@
+Información del rescate:
+F: Free (libre)
+S: Start (inicio)
+X: Blocked (bloqueado)
+T: Trapped (atrapado)
+P: Danger (peligro)
+D: Fatal Danger (peligro fatal)
+
+Plano del rescate:
+
+T F F S F F T
+F P F X F F D
+
+
+Política inicial:
+Estado Position: (0, 1): Acción Action: RIGHT
+Estado Position: (0, 2): Acción Action: LEFT
+Estado Position: (0, 3): Acción Action: RIGHT
+Estado Position: (0, 4): Acción Action: DOWN
+Estado Position: (0, 5): Acción Action: DOWN
+Estado Position: (1, 0): Acción Action: UP
+Estado Position: (1, 1): Acción Action: RIGHT
+Estado Position: (1, 2): Acción Action: UP
+Estado Position: (1, 4): Acción Action: UP
+Estado Position: (1, 5): Acción Action: LEFT
+It: 
+
+Iteración 1
+Política mejorada:
+Estado Position: (0, 1): Acción Action: LEFT
+Estado Position: (0, 2): Acción Action: LEFT
+Estado Position: (0, 3): Acción Action: RIGHT
+Estado Position: (0, 4): Acción Action: RIGHT
+Estado Position: (0, 5): Acción Action: RIGHT
+Estado Position: (1, 0): Acción Action: UP
+Estado Position: (1, 1): Acción Action: LEFT
+Estado Position: (1, 2): Acción Action: UP
+Estado Position: (1, 4): Acción Action: UP
+Estado Position: (1, 5): Acción Action: UP
+
+ES IGUAL LA POLITICA MEJORADA A LA ANTERIOR? False
+
+Iteración 2
+Política mejorada:
+Estado Position: (0, 1): Acción Action: LEFT
+Estado Position: (0, 2): Acción Action: RIGHT
+Estado Position: (0, 3): Acción Action: RIGHT
+Estado Position: (0, 4): Acción Action: RIGHT
+Estado Position: (0, 5): Acción Action: RIGHT
+Estado Position: (1, 0): Acción Action: UP
+Estado Position: (1, 1): Acción Action: UP
+Estado Position: (1, 2): Acción Action: UP
+Estado Position: (1, 4): Acción Action: UP
+Estado Position: (1, 5): Acción Action: UP
+
+ES IGUAL LA POLITICA MEJORADA A LA ANTERIOR? False
+
+Iteración 3
+Política mejorada:
+Estado Position: (0, 1): Acción Action: LEFT
+Estado Position: (0, 2): Acción Action: RIGHT
+Estado Position: (0, 3): Acción Action: RIGHT
+Estado Position: (0, 4): Acción Action: RIGHT
+Estado Position: (0, 5): Acción Action: RIGHT
+Estado Position: (1, 0): Acción Action: UP
+Estado Position: (1, 1): Acción Action: UP
+Estado Position: (1, 2): Acción Action: UP
+Estado Position: (1, 4): Acción Action: UP
+Estado Position: (1, 5): Acción Action: UP
+
+ES IGUAL LA POLITICA MEJORADA A LA ANTERIOR? True
+La política ha convergido.
+
+Política final:
+Estado Position: (0, 1): Acción Action: LEFT
+Estado Position: (0, 2): Acción Action: RIGHT
+Estado Position: (0, 3): Acción Action: RIGHT
+Estado Position: (0, 4): Acción Action: RIGHT
+Estado Position: (0, 5): Acción Action: RIGHT
+Estado Position: (1, 0): Acción Action: UP
+Estado Position: (1, 1): Acción Action: UP
+Estado Position: (1, 2): Acción Action: UP
+Estado Position: (1, 4): Acción Action: UP
+Estado Position: (1, 5): Acción Action: UP
+* ← → → → → *
+↑ ↑ ↑ X ↑ ↑ .

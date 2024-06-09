@@ -1,0 +1,94 @@
+Información del rescate:
+F: Free (libre)
+S: Start (inicio)
+X: Blocked (bloqueado)
+T: Trapped (atrapado)
+P: Danger (peligro)
+D: Fatal Danger (peligro fatal)
+
+Plano del rescate:
+
+T F F S F F T
+F P F X F F D
+
+
+Filas: 2, Columnas: 7
+Bloqueos: [[1, 3]]
+Punto de partida: (0, 3)
+Peligros: [(1, 1)]
+Personas atrapadas: {(0, 0): 1, (0, 6): 5}
+Peligros fatales: {(1, 6): -7}
+
+
+
+Agente Q-Learning inicializado con estado inicial: Position: (0, 3)
+
+Q TABLA INICIAL
+
+Position: (0, 3): RIGHT 0.0 LEFT 0.0 
+
+Starting episode 1/10
+
+Mejor acción seleccionada: Action: RIGHT
+Acción Action: RIGHT aplicada en estado Position: (0, 3), nuevo estado: Position: (0, 4)
+Nueva entrada en la Q-Tabla para el estado: Position: (0, 4)
+Recompensa obtenida: -1
+Q-Tabla actualizada en estado Position: (0, 3), acción Action: RIGHT con valor -0.1
+Position: (0, 3): RIGHT -0.1 LEFT 0.0 
+Position: (0, 4): RIGHT 0.0 DOWN 0.0 LEFT 0.0 
+Estado actualizado a: Position: (0, 4)
+Mejor acción seleccionada: Action: RIGHT
+Acción Action: RIGHT aplicada en estado Position: (0, 4), nuevo estado: Position: (1, 4)
+Nueva entrada en la Q-Tabla para el estado: Position: (1, 4)
+Recompensa obtenida: -1
+Q-Tabla actualizada en estado Position: (0, 4), acción Action: RIGHT con valor -0.1
+Position: (0, 3): RIGHT -0.1 LEFT 0.0 
+Position: (0, 4): RIGHT -0.1 DOWN 0.0 LEFT 0.0 
+Position: (1, 4): UP 0.0 RIGHT 0.0 
+Estado actualizado a: Position: (1, 4)
+Mejor acción seleccionada: Action: UP
+Acción Action: UP aplicada en estado Position: (1, 4), nuevo estado: Position: (1, 5)
+Nueva entrada en la Q-Tabla para el estado: Position: (1, 5)
+Recompensa obtenida: -1
+Q-Tabla actualizada en estado Position: (1, 4), acción Action: UP con valor -0.1
+Position: (0, 3): RIGHT -0.1 LEFT 0.0 
+Position: (0, 4): RIGHT -0.1 DOWN 0.0 LEFT 0.0 
+Position: (1, 4): UP -0.1 RIGHT 0.0 
+Position: (1, 5): UP 0.0 RIGHT 0.0 LEFT 0.0 
+Estado actualizado a: Position: (1, 5)
+Mejor acción seleccionada: Action: UP
+Acción Action: UP aplicada en estado Position: (1, 5), nuevo estado: Position: (0, 5)
+Nueva entrada en la Q-Tabla para el estado: Position: (0, 5)
+Recompensa obtenida: -1
+Q-Tabla actualizada en estado Position: (1, 5), acción Action: UP con valor -0.1
+Position: (0, 3): RIGHT -0.1 LEFT 0.0 
+Position: (0, 4): RIGHT -0.1 DOWN 0.0 LEFT 0.0 
+Position: (1, 4): UP -0.1 RIGHT 0.0 
+Position: (1, 5): UP -0.1 RIGHT 0.0 LEFT 0.0 
+Position: (0, 5): RIGHT 0.0 DOWN 0.0 LEFT 0.0 
+Estado actualizado a: Position: (0, 5)
+Mejor acción seleccionada: Action: RIGHT
+Acción Action: RIGHT aplicada en estado Position: (0, 5), nuevo estado: Position: (0, 6)
+Recompensa obtenida: 5
+
+Estado final alcanzado. Q-Tabla actualizada en estado Position: (0, 5), acción Action: RIGHT con valor 0.5
+Position: (0, 3): RIGHT -0.1 LEFT 0.0 
+Position: (0, 4): RIGHT -0.1 DOWN 0.0 LEFT 0.0 
+Position: (1, 4): UP -0.1 RIGHT 0.0 
+Position: (1, 5): UP -0.1 RIGHT 0.0 LEFT 0.0 
+Position: (0, 5): RIGHT 0.5 DOWN 0.0 LEFT 0.0 
+Estado actualizado a: Position: (0, 6)
+
+Episode 1/10 completed with 5 steps
+
+Starting episode 2/10
+
+.
+.
+.
+
+Episode 10/10 completed with 3 steps
+Política óptima calculada.
+Política óptima calculada.
+* ← → ← → → *
+. → ↑ X ↑ ← D
